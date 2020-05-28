@@ -30,7 +30,7 @@ ToDoアプリづくりを通して様々な言語の勉強をする
   
 ## アプリUI  
 - スマートフォンで見ることを想定（iPhone11）
-- [Figma](figma.com/file/Xr2kKzgqgDiwdy3T64H4ZY/Untitled?node-id=0%3A1)  
+- [Figma](https://www.figma.com/file/Xr2kKzgqgDiwdy3T64H4ZY/Untitled?node-id=1%3A3)  
 
   
 ## 勉強内容  
