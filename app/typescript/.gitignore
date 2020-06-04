@@ -108,4 +108,7 @@ dist/
 tmp/
 temp/
 
+# vim
+*.swp
+
 # End of https://www.gitignore.io/api/node
