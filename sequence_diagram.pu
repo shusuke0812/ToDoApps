@@ -8,7 +8,7 @@ database DB
 title ToDo登録
 
 == Userからの入力 ==
-User -> APP: メールアドレスを入力
+User -> APP: ToDoを入力
 
 alt successful case
     APP -> API: ToDo内容を送信
