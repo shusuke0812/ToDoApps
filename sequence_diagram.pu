@@ -1,0 +1,27 @@
+@startuml
+
+actor User
+participant APP
+participant API
+database DB
+
+title ToDo登録
+
+== Userからの入力 ==
+User -> APP: メールアドレスを入力
+
+alt successful case
+    APP -> API: ToDo内容を送信
+else failure case
+    APP -> APP: エラーメッセージを表示（validation：文字数50字以内）
+end
+
+== API通信 ==
+API -> DB: DBへToDo内容を登録
+DB -> API: ToDo内容のIDを返却
+API -> APP: ToDo内容のIDを返却
+
+== Userが入力したToDoを表示 ==
+APP -> APP: 入力したToDoをリストへ表示
+
+@enduml

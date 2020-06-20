@@ -32,6 +32,9 @@ ToDoアプリづくりを通して様々な言語の勉強をする
 - スマートフォンで見ることを想定（iPhone11）
 - [Figma](https://www.figma.com/file/Xr2kKzgqgDiwdy3T64H4ZY/Untitled?node-id=1%3A3)  
 
+## シーケンス図  
+  
+![](./sequence_diagram.svg)
   
 ## 勉強内容  
 - 各言語の基礎的な文法
